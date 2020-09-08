@@ -1,0 +1,61 @@
+.navbar{
+    background-color: #9c332c !important;
+}
+
+.masthead{
+    min-height:30rem;
+    position:relative;
+    display:table;
+    width:100%;
+    height:auto;
+    padding-top:8rem;
+    padding-bottom:8rem;
+    background:linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../images/img/bg-master.png);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: #c6b8e0;
+}
+
+.separation{
+	clear: both;
+	position: absolute;
+	margin-top :10px;
+	margin-left: 250px;
+	height: 555px;
+	width : 2px;
+	background: #0009;
+	}
+
+.bleu{
+    color: blue !important;
+}
+    
+.fondecran h1{
+    font-size:4rem;
+    margin:0;
+    padding:0;
+    color: blue;
+    
+}
+
+@media (min-width:992px){.masthead{height:100vh}.masthead h1{font-size:5.5rem}}
+
+hr{
+    margin: 0 !important;
+    border-color: rgba(102, 102, 102, 0.1) currentcolor currentcolor;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border: 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+
+.customlink {
+    color: #140040 !important;
+}
+.whitetext {
+    color: #140040 !important;
+
+}
